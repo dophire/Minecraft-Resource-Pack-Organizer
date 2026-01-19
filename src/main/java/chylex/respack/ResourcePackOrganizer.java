@@ -18,7 +18,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import chylex.respack.ConfigHandler.DisplayPosition;
 import chylex.respack.gui.GuiCustomResourcePacks;
 import chylex.respack.render.RenderPackListOverlay;
-import chylex.respack.repository.ResourcePackRepositoryCustom;
 
 @Mod(modid = ResourcePackOrganizer.MODID, name = ResourcePackOrganizer.MODNAME, useMetadata = true, guiFactory = "chylex.respack.gui.GuiModConfig")
 public final class ResourcePackOrganizer{
@@ -43,7 +42,6 @@ public final class ResourcePackOrganizer{
 		
 		MinecraftForge.EVENT_BUS.register(this);
 		
-		ResourcePackRepositoryCustom.overrideRepository(config.options.getEnabledPacks());
 		RenderPackListOverlay.refreshPackNames();
 	}
 	
