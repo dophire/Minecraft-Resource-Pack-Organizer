@@ -1,4 +1,5 @@
-Remade the UI to look like aycy's Resource Pack Manager mod. 
+Remade the UI to look like aycy's Resource Pack Manager mod (https://youtu.be/OQZFWrrEcYM), which had a lot of issues.
+
 Features a fullscreen UI with a transparent background and a new folder icon. 
 Fixed ESC not restoring the original selected packs order after making changes and pressing ESC.
 
